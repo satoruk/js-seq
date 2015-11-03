@@ -2,6 +2,7 @@
 
 [![Circle CI](https://circleci.com/gh/satoruk/js-seq.svg?style=svg)](https://circleci.com/gh/satoruk/js-seq)
 
+http://satoruk.github.io/js-seq
 
 ```
 import Seq from 'js-seq';
