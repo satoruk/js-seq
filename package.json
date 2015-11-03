@@ -1,0 +1,39 @@
+{
+  "name": "js-seq",
+  "version": "0.0.1",
+  "description": "sequencer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --watch",
+    "build": "babel src --out-dir lib --source-maps-inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/satoruk/js-seq.git"
+  },
+  "keywords": [
+    "sequence"
+  ],
+  "author": "satoruk <koyanagi3106@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satoruk/js-seq/issues"
+  },
+  "homepage": "https://github.com/satoruk/js-seq#readme",
+  "files": [
+    "lib"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-cli": "^6.0.15",
+    "babel-core": "^6.0.15",
+    "babel-preset-es2015": "^6.0.14",
+    "mocha": "^2.3.3"
+  }
+}
